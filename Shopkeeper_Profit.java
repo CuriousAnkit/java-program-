@@ -1,11 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * Shopkeeper_Profit
- */
-
- //Ram makes a plan for the new year. He decides to sell the products and writes down the price for N days. The prices are denoted by an array V[] of N elements. Looking at the sequence he decides that for the ith product, he is going to get a profit that equals to (Vj - Vi), where j is the minimum index just greater than i and Vj >= Vi. If there is no such j, then his profit will be equal to Vi. Find the total profit of Ram. 
+ //Ram makes a plan for the new year. He decides to sell the products and writes down the price for N days. 
+//The prices are denoted by an array V[] of N elements. Looking at the sequence he decides that for the
+//ith product, he is going to get a profit that equals to (Vj - Vi), where j is the minimum index just greater
+//than i and Vj >= Vi. If there is no such j, then his profit will be equal to Vi. Find the total profit of Ram. 
 public class Shopkeeper_Profit {
 
   public static void main(String[] args) {
